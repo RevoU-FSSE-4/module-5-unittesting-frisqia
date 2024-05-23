@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Weather />
+      <a href="/about">About</a>
     </div>
   );
 }
