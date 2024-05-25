@@ -74,7 +74,7 @@ describe("Weather Component", () => {
     expect(
       await screen.findByRole("heading", { name: /New York, US/i })
     ).toBeInTheDocument();
-    expect(screen.getByText(/clear sky/i)).toBeInTheDocument();
+    expect(screen.getByText("clear sky")).toBeInTheDocument();
     expect(screen.getByText("295.37")).toBeInTheDocument();
     expect(screen.getByText("3.1")).toBeInTheDocument();
     expect(screen.getByText("50%")).toBeInTheDocument();
